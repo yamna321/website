@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#home{
+    background-size: cover;
+    background-image: url(img2.jfif);
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+   
+
+ul{
+    display: flex;
+    gap: 2.5rem;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+   
+    
+   
+}
+li{
+    list-style: none;
+ 
+    
+}
+
+li a{
+    color: #222b04;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    position: relative;
+    
+}
+li a:hover{
+    background-color: rgb(217, 230, 219);
+}
+.content{
+    color:#0b1402 ;
+   text-align: center;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);   
+}
+/* p{
+    color:#1d2914 ;
+    margin: auto;
+    width: 30%;
+    padding: 05px;
+    text-align: center;
+  
+    */
+.transbox{
+    margin: 0;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0.7;
+    font-size: large;
+    
+}
+.icons{
+    color: #0b1306;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 26rem; 
+}
+.icons :hover{
+    background-color: white;
+    
+}
+h1{
+    font-size: 3.5rem;
+    color: #1d2914;
+    text-transform: capitalize;
+    text-align: center;
+}
+div.gallery {
+    border: 1px solid wheat;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid black;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33.3%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+ }
